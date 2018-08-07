@@ -8,9 +8,50 @@ import cv2
 # OpenCV is *not* required to use the face_recognition library. It's only required if you want to run this
 # specific demo. If you have trouble installing it, try any of the other demos that don't require it instead.
 face_list = ['shuhao.jpg',
-             'cancheng.jpg']
+             'cancheng.jpg',
+             'yanbin.jpg',
+             'xiaoqing.jpg',
+             'sunzhuo.jpg',
+             'cunguang.jpg',
+             'fangjun.jpg',
+             'gaoxiang.jpg',
+             'hainan.jpg',
+             'haiying.jpg',
+             'hongwei.jpg',
+             'jianbai.jpg',
+             'jifan.jpg',
+             'lichao',
+             'linsong.jpg',
+             'ruixue.jpg',
+             'wanglang.jpg',
+             'xugang.jpg',
+             'xuwei.jpg',
+             'yangzhe.jpg',
+             'yanjie.jpg',
+             'zhongxiao.jpg',
+             ]
 employee_name = ['Eric Wang',
-                 'Charles Liu']
+                 'Charles Liu',
+                 'Jackie Liu',
+                 'Sherwin Zhang',
+                 'Zhuo Sun',
+                 'Cunguang Wang',
+                 'Thomas Ding',
+                 'Xiang Gao',
+                 'Hainan Lu',
+                 'Helen Xu',
+                 'Hongwei Pang',
+                 'Calvin Ku',
+                 'Jifan Li',
+                 'Lichao Pan',
+                 'Linsong Chen',
+                 'Ruixue Jiang',
+                 'Lang Wang',
+                 'Gang Xu',
+                 'Wei Xu',
+                 'Zhe Yang',
+                 'Yanjie Tian',
+                 'Zhongxiao Wang']
 
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
